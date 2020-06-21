@@ -2,8 +2,9 @@ import React from 'react';
 import '../cssfiles/section6.css';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
-
 import 'slick-carousel/slick/slick-theme.css';
+import Slide from 'react-reveal/Slide';
+
 class Footer extends React.Component {
 	constructor() {
 		super();
@@ -49,9 +50,11 @@ class Footer extends React.Component {
 
 		return (
 			<section className="footersection">
-				<div className="header-scroll">
-					<h2>Our Clients</h2>
-				</div>
+				<Slide up>
+					<div className="header-scroll">
+						<h2>Our Clients</h2>
+					</div>
+				</Slide>
 				<div class="container-scroll">
 					<Slider {...settings}>
 						<div>
@@ -112,26 +115,31 @@ class Footer extends React.Component {
 						</div>
 					</Slider>
 				</div>
-
 				<footer>
 					<div className="footer">
 						<div className="footercontent">
-							<div className="footerpart about">
+							<div className="footerpart ">
 								<p>
-									<a class="footerlink" href="">
+									<font class="footerlink" href="">
 										240, rue des Forges,
 										<br />
 										suite 301 Trois-Rivieres,
 										<br />
 										QC G9A 2G8 <br />
-									</a>
+									</font>
 								</p>
 							</div>
-							<div className="notion">
-								<p>
-									NOTION <span>CREW</span>
-								</p>
-							</div>
+							<Slide up>
+								<div className="notion">
+									<p>
+										<font>Contact us</font>
+										<br />
+										for your
+										<a href="">project</a>
+									</p>
+								</div>
+							</Slide>
+
 							<div className="footerpart social">
 								<p>
 									<a class="footerlink" href="">
@@ -142,7 +150,7 @@ class Footer extends React.Component {
 										jobs@stereo.ca
 									</a>
 									<br />
-									<a class="footerlink" href="">
+									<a class="footerlink" href="tel:8194152223">
 										819 415-2223
 									</a>
 									<br />

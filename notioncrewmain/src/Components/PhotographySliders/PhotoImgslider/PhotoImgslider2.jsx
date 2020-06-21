@@ -60,9 +60,8 @@ class PhotoImageslide2 extends Component {
 		return (
 			<div>
 				<SimpleImageSlider
-
-					width={'100%'}
-					height={'100%'}
+					width={'90%'}
+					height={'90%'}
 					images={images}
 					showBullets={this.state.showBullets}
 					showNavs={this.state.showNavs}

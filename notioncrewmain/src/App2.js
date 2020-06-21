@@ -70,15 +70,16 @@ class FullpageWrapper extends React.Component {
 				slidesNavigation={true}
 				slidesNavPosition={'bottom'}
 				navigationTooltips={[
-					'notioncrew',
-					'services',
-					'graphics',
-					'photography',
-					'video',
-					'contacts',
-					'ourteam',
-					'clients',
+					'HOME',
+					'SERVICES',
+					'GRAPHICS',
+					'PHOTOGRAPHY',
+					'VIDEO',
+					'CONTACTS',
+					'TEAM',
+					'CLIENTS',
 				]} //tooltips for the navdots
+				parallax={true}
 				scrollingSpeed={1000} /* used this for something to work... */
 				sectionsColor={[]}
 				scrollBar={false}
@@ -99,7 +100,7 @@ class FullpageWrapper extends React.Component {
 					'',
 					'#0b3a42',
 					'#0b3a42',
-					'#115373',
+					'rgba(19,111,162,0.7)',
 				]}
 				onLeave={this.onLeave.bind(this)}
 				afterLoad={this.afterLoad.bind(this)}
