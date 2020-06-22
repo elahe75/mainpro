@@ -16,15 +16,16 @@ class Fullbackground extends Component {
 					<div className="fullvideo">
 						<div className="header">
 							<ul id="menu">
-								<li class="active" active data-menuanchor="services">
-									<a href="#services">services</a>
+								<li class="active" active data-menuanchor="services" active>
+									<a href="#services">Services</a>
 								</li>
-								<li data-menuanchor="graphics">
-									<a href="#graphics">projects</a>
+								<li id="line" data-menuanchor="graphics">
+									<a href="#graphics">Projects</a>
 								</li>
-								<li>
+
+								<li id="line2">
 									<a href="#contacts" data-menuanchor="contacts">
-										contacts
+										Contacts
 									</a>
 								</li>
 							</ul>
