@@ -319,21 +319,21 @@ html.fp-enabled,
 }
 
 @media only screen and (min-width: 320px) and (orientation: portrait) {
-	.fp-controlArrow.fp-prev.fp-slide {
+	.fp-controlArrow.fp-prev {
 		left: 10px;
 		margin-top: 200px !important;
 	}
-	.fp-controlArrow.fp-prev.fp-slide {
+	.fp-controlArrow.fp-prev {
 		left: 10px;
 		width: 0;
 		border-width: 30x 0 30px 26px;
 		border-color: transparent #333 transparent transparent;
 	}
-	.fp-controlArrow.fp-next.fp-slide {
+	.fp-controlArrow.fp-next {
 		right: 10px;
 		margin-top: 200px !important;
 	}
-	.fp-controlArrow.fp-next.fp-slide {
+	.fp-controlArrow.fp-next {
 		right: 10px;
 		border-width: 30x 0 30px 26px;
 		border-color: transparent transparent transparent #333;
