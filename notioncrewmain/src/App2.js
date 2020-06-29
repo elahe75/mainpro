@@ -100,7 +100,7 @@ class FullpageWrapper extends React.Component {
 					'',
 					'#0b3a42',
 					'#0b3a42',
-					'#0067a5',
+					'#0d19a3',
 				]}
 				onLeave={this.onLeave.bind(this)}
 				afterLoad={this.afterLoad.bind(this)}

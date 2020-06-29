@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import MyHeader from './stickyheader';
 import Slide from 'react-reveal/Slide';
 import '../cssfiles/section1.css';
-
+import Menu2 from './menu';
 class Fullbackground extends Component {
 	constructor(props) {
 		super(props);
@@ -15,7 +15,8 @@ class Fullbackground extends Component {
 				<section className="background">
 					<div className="fullvideo">
 						<div className="header">
-							<ul id="menu">
+							<Menu2 />
+							{/* <ul id="menu">
 								<li class="active" active data-menuanchor="services" active>
 									<a href="#services">Services</a>
 								</li>
@@ -28,7 +29,7 @@ class Fullbackground extends Component {
 										Contacts
 									</a>
 								</li>
-							</ul>
+							</ul> */}
 						</div>
 						{/* <video src="../../background.mp4" autoPlay muted loop></video> */}
 						<div className="videotext">
